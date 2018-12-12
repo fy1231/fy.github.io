@@ -8,4 +8,4 @@ categories: jekyll update
 {{ page.title }}
 ================
 
-At a long time,I don`t get a habit of writing.Although ideas flash in my mind,I quite not express myself well.Now it starts with the blog.
+At a long time, I don`t get a habit of writing. Although ideas flash in my mind, I quite not express myself well. Now it starts with the blog.
