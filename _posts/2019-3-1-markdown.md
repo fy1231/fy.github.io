@@ -9,7 +9,7 @@ date:   2018-12-17 13:31:55 +0800
 Markdown: Syntax
 ================
 ## Overview 概述
-### Philosophy 哲理
+### Philosophy 哲学思想
 
 Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
 
