@@ -13,13 +13,7 @@ Markdown: Syntax
 
 Markdown is intended to be as easy-to-read and easy-to-write as is feasible. 设计尽可能的易于读写
 
-Readability, however, is emphasized above all else. A Markdown-formatted
-document should be publishable as-is, as plain text, without looking
-like it's been marked up with tags or formatting instructions. While
-Markdown's syntax has been influenced by several existing text-to-HTML
-filters - the single biggest source of
-inspiration for Markdown's syntax is the format of plain text email.
-
+可读性 Readability, however, is emphasized above all else. 
 
 To this end, Markdown's syntax is comprised entirely of punctuation
 characters, which punctuation characters have been carefully chosen so
