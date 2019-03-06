@@ -15,18 +15,9 @@ Markdown is intended to be as easy-to-read and easy-to-write as is feasible. 设
 
 可读性 Readability, however, is emphasized above all else. 
 
-To this end, Markdown's syntax is comprised entirely of punctuation
-characters, which punctuation characters have been carefully chosen so
-as to look like what they mean. E.g., asterisks around a word actually
-look like \*emphasis\*. Markdown lists look like, well, lists. Even
-blockquotes look like quoted passages of text, assuming you've ever
-used email.
+### Inline 内联 HTML 
 
-
-
-<h3 id="html">Inline HTML</h3>
-
-Markdown's syntax is intended for one purpose: to be used as a
+Markdown's syntax is intended for one purpose: to be used as a 
 format for *writing* for the web.
 
 Markdown is not a replacement for HTML, or even close to it. Its
