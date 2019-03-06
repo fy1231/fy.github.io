@@ -13,26 +13,14 @@ Markdown: Syntax
 
 Markdown is intended to be as easy-to-read and easy-to-write as is feasible. 设计尽可能的易于读写
 
-可读性 Readability, however, is emphasized above all else. 
+可读性 Readability, however, is emphasized above all else.
 
-### Inline 内联 HTML 
+### Inline 内联 HTML
 
-Markdown's syntax is intended for one purpose: to be used as a 
-format for *writing* for the web.
+HTML is a *publishing* format; Markdown is a *writing*
+format. 
 
-Markdown is not a replacement for HTML, or even close to it. Its
-syntax is very small, corresponding only to a very small subset of
-HTML tags. The idea is *not* to create a syntax that makes it easier
-to insert HTML tags. In my opinion, HTML tags are already easy to
-insert. The idea for Markdown is to make it easy to read, write, and
-edit prose. HTML is a *publishing* format; Markdown is a *writing*
-format. Thus, Markdown's formatting syntax only addresses issues that
-can be conveyed in plain text.
-
-For any markup that is not covered by Markdown's syntax, you simply
-use HTML itself. There's no need to preface it or delimit it to
-indicate that you're switching from Markdown to HTML; you just use
-the tags.
+由于Markdown是为了便于书写设计，必要时候HTML本身。
 
 The only restrictions are that block-level HTML elements -- e.g. `<div>`,
 `<table>`, `<pre>`, `<p>`, etc. -- must be separated from surrounding
