@@ -8,11 +8,8 @@ date:   2018-12-17 13:31:55 +0800
 ================
 Markdown: Syntax
 ================
-# Overview
-
-<h2 id="overview">Overview</h2>
-
-<h3 id="philosophy">Philosophy</h3>
+## Overview 概述
+### Philosophy 哲理
 
 Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
 
