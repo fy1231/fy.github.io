@@ -26,11 +26,7 @@ Span-level HTML tags can be used anywhere.
 Unlike block-level HTML tags, Markdown syntax *is* processed within span-level tags.
 
 ### Automatic Escaping for Special Characters 特殊字符自动转义
-In HTML, there are two characters that demand special treatment: `<`
-and `&`. Left angle brackets are used to start tags; ampersands are
-used to denote HTML entities. If you want to use them as literal
-characters, you must escape them as entities, e.g. `&lt;`, and
-`&amp;`.
+In HTML, there are two characters that demand special treatment: `<` and `&`. Left angle brackets are used to start tags; ampersands are used to denote HTML entities. If you want to use them as literal characters, you must escape them as entities, e.g. `&lt;`, and `&amp;`.
 
 
 Markdown allows you to use these characters naturally, taking care of
