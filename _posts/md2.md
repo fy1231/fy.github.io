@@ -47,23 +47,11 @@ format.
 
 由于Markdown是为了便于书写设计，必要时候直接使用HTML本身。
 
-
-
-Note that Markdown formatting syntax is not processed within block-level
-HTML tags. E.g., you can't use Markdown-style `*emphasis*` inside an
-HTML block.
-
-Span-level HTML tags -- e.g. `<span>`, `<cite>`, or `<del>` -- can be
-used anywhere in a Markdown paragraph, list item, or header. If you
-want, you can even use HTML tags instead of Markdown formatting; e.g. if
-you'd prefer to use HTML `<a>` or `<img>` tags instead of Markdown's
-link or image syntax, go right ahead.
-
-Unlike block-level HTML tags, Markdown syntax *is* processed within
+block-level HTML tags, Markdown syntax *is* processed within
 span-level tags.
 
 
-<h3 id="autoescape">Automatic Escaping for Special Characters</h3>
+### Automatic Escaping for Special Characters 特殊字符
 
 In HTML, there are two characters that demand special treatment: `<`
 and `&`. Left angle brackets are used to start tags; ampersands are
