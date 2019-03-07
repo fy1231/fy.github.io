@@ -22,7 +22,10 @@ format.
 
 由于Markdown是为了便于书写设计，必要时候直接使用HTML本身。
 
-block-level HTML elements must be separated.Markdown formatting syntax is not processed within block-level HTML tags.Span-level HTML tags can be used anywhere.Unlike block-level HTML tags, Markdown syntax *is* processed within span-level tags.
+Block-level HTML elements must be separated.  
+Markdown formatting syntax is not processed within block-level HTML tags.  
+Span-level HTML tags can be used anywhere.  
+Unlike block-level HTML tags, Markdown syntax *is* processed within span-level tags.
 
 ### Automatic Escaping for Special Characters 特殊字符
 
