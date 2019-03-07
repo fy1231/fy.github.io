@@ -20,7 +20,7 @@ Markdown is intended to be as easy-to-read and easy-to-write as is feasible. 设
 HTML is a *publishing* format; Markdown is a *writing*
 format. 
 
-由于Markdown是为了便于书写设计，必要时候HTML本身。
+由于Markdown是为了便于书写设计，必要时候直接使用HTML本身。
 
 The only restrictions are that block-level HTML elements -- e.g. `<div>`,
 `<table>`, `<pre>`, `<p>`, etc. -- must be separated from surrounding
