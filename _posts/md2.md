@@ -10,13 +10,11 @@ Markdown: Syntax
 ================
 ## Overview 概述
 ### Philosophy 哲学思想
-
 Markdown is intended to be as easy-to-read and easy-to-write as is feasible. 设计尽可能的易于读写
 
 可读性 Readability, however, is emphasized above all else.
 
 ### Inline 内联 HTML
-
 HTML is a *publishing* format; Markdown is a *writing*
 format. 
 
@@ -28,7 +26,6 @@ Span-level HTML tags can be used anywhere.
 Unlike block-level HTML tags, Markdown syntax *is* processed within span-level tags.
 
 ### Automatic Escaping for Special Characters 特殊字符
-
 In HTML, there are two characters that demand special treatment: `<`
 and `&`. Left angle brackets are used to start tags; ampersands are
 used to denote HTML entities. If you want to use them as literal
