@@ -23,23 +23,16 @@ format.
 Block-level HTML elements must be separated.  
 Markdown formatting syntax is not processed within block-level HTML tags.  
 Span-level HTML tags can be used anywhere.  
-Unlike block-level HTML tags, Markdown syntax *is* processed within span-level tags.
+Unlike block-level HTML tags, Markdown syntax *is* processed within span-level tags. 与块级元素不同，内联元素中可以使用Markdown语法。
 
 ### Automatic Escaping for Special Characters 特殊字符自动转义
 In HTML, there are two characters that demand special treatment: `<` and `&`. Left angle brackets are used to start tags; ampersands are used to denote HTML entities. If you want to use them as literal characters, you must escape them as entities, e.g. `&lt;`, and `&amp;`.
 
 
-Markdown allows you to use these characters naturally, taking care of
-all the necessary escaping for you. If you use an ampersand as part of
-an HTML entity, it remains unchanged; otherwise it will be translated
-into `&amp;`.
+Markdown allows you to use these characters naturally, taking care of all the necessary escaping for you. If you use an ampersand as part of an HTML entity, it remains unchanged; otherwise it will be translated into `&amp;`.
 
 
-However, inside Markdown code spans and blocks, angle brackets and
-ampersands are *always* encoded automatically. This makes it easy to use
-Markdown to write about HTML code. (As opposed to raw HTML, which is a
-terrible format for writing about HTML syntax, because every single `<`
-and `&` in your example code needs to be escaped.)
+However, inside Markdown code spans and blocks, angle brackets and ampersands are *always* encoded automatically. This makes it easy to use Markdown to write about HTML code. (As opposed to raw HTML, which is a terrible format for writing about HTML syntax, because every single `<` and `&` in your example code needs to be escaped.)
 
 
 
