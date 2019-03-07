@@ -22,34 +22,10 @@ format.
 
 由于Markdown是为了便于书写设计，必要时候直接使用HTML本身。
 
-
----
-layout: post
-title: Markdown
-date:   2018-12-17 13:31:55 +0800
----
-
-{{ page.title }}
-================
-Markdown: Syntax
-================
-## Overview 概述
-### Philosophy 哲学思想
-
-Markdown is intended to be as easy-to-read and easy-to-write as is feasible. 设计尽可能的易于读写
-
-可读性 Readability, however, is emphasized above all else.
-
-### Inline 内联 HTML
-
-HTML is a *publishing* format; Markdown is a *writing*
-format. 
-
-由于Markdown是为了便于书写设计，必要时候直接使用HTML本身。
-
 block-level HTML tags, Markdown syntax *is* processed within
 span-level tags.
 
+Markdown formatting syntax is not processed within block-level HTML tags.Span-level HTML tags can be used anywhere.Unlike block-level HTML tags, Markdown syntax *is* processed within span-level tags.
 
 ### Automatic Escaping for Special Characters 特殊字符
 
