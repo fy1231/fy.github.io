@@ -50,10 +50,9 @@ When you *do* want to insert a `<br />` break tag using Markdown, you end a line
 行末两个或两个以上空格换行。
 
 ### Headers
-Markdown supports two styles of headers, [Setext] [1] and [atx] [2].
+Markdown supports two styles of headers, Setext and atx.
 
-Setext-style headers are "underlined" using equal signs (for first-level
-headers) and dashes (for second-level headers). For example:
+Setext-style headers are "underlined" using equal signs (for first-level headers) and dashes (for second-level headers). For example:
 
     This is an H1
     =============
@@ -63,8 +62,7 @@ headers) and dashes (for second-level headers). For example:
 
 Any number of underlining `=`'s or `-`'s will work.
 
-Atx-style headers use 1-6 hash characters at the start of the line,
-corresponding to header levels 1-6. For example:
+Atx-style headers use 1-6 hash characters at the start of the line, corresponding to header levels 1-6. For example:
 
     # This is an H1
 
@@ -72,21 +70,7 @@ corresponding to header levels 1-6. For example:
 
     ###### This is an H6
 
-Optionally, you may "close" atx-style headers. This is purely
-cosmetic -- you can use this if you think it looks better. The
-closing hashes don't even need to match the number of hashes
-used to open the header. (The number of opening hashes
-determines the header level.) :
-
-    # This is an H1 #
-
-    ## This is an H2 ##
-
-    ### This is an H3 ######
-
-
-<h3 id="blockquote">Blockquotes</h3>
-
+### Blockquotes
 Markdown uses email-style `>` characters for blockquoting. If you're
 familiar with quoting passages of text in an email message, then you
 know how to create a blockquote in Markdown. It looks best if you hard
