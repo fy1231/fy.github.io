@@ -108,7 +108,7 @@ Blockquotes can contain other Markdown elements, including headers, lists, and c
 	> 
 	>     return shell_exec("echo $input | $markdown_script");
 
-### Lists
+### Lists 序列
 Markdown supports ordered (numbered) and unordered (bulleted) lists.
 
 Unordered lists use asterisks, pluses, and hyphens -- interchangably
@@ -332,8 +332,7 @@ it's also easy to use Markdown to write about Markdown's own syntax.
 
 
 
-<h3 id="hr">Horizontal Rules</h3>
-
+### Horizontal Rules
 You can produce a horizontal rule tag (`<hr />`) by placing three or
 more hyphens, asterisks, or underscores on a line by themselves. If you
 wish, you may use spaces between the hyphens or asterisks. Each of the
@@ -352,10 +351,8 @@ following lines will produce a horizontal rule:
 
 * * *
 
-<h2 id="span">Span Elements</h2>
-
-<h3 id="link">Links</h3>
-
+## Span Elements
+### Links
 Markdown supports two style of links: *inline* and *reference*.
 
 In both styles, the link text is delimited by [square brackets].
