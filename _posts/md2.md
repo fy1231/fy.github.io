@@ -49,7 +49,7 @@ When you *do* want to insert a `<br />` break tag using Markdown, you end a line
 
 行末两个或两个以上空格换行。
 
-### Headers
+### Headers 标题
 Markdown supports two styles of headers, Setext and atx.
 
 Setext-style headers are "underlined" using equal signs (for first-level headers) and dashes (for second-level headers). For example:
@@ -70,7 +70,7 @@ Atx-style headers use 1-6 hash characters at the start of the line, correspondin
 
     ###### This is an H6
 
-### Blockquotes
+### Blockquotes 块级引用
 Markdown uses email-style `>` characters for blockquoting. It looks best if you hard wrap the text and put a `>` before every line:
 
     > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
@@ -107,9 +107,6 @@ Blockquotes can contain other Markdown elements, including headers, lists, and c
 	> Here's some example code:
 	> 
 	>     return shell_exec("echo $input | $markdown_script");
-
-Any decent text editor should make email-style quoting easy. For example, with BBEdit, you can make a selection and choose Increase Quote Level from the Text menu.
-
 
 ### Lists
 Markdown supports ordered (numbered) and unordered (bulleted) lists.
