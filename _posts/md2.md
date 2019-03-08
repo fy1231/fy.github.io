@@ -33,9 +33,9 @@ In HTML, there are two characters that demand special treatment: `<` and `&`. Le
 
 Markdown allows you to use these characters naturally, taking care of all the necessary escaping for you. If you use an ampersand as part of an HTML entity, it remains unchanged; otherwise it will be translated into `&amp;`.
 
+Markdown会根据情况自动判断是否转义。
 
 However, inside Markdown code spans and blocks, angle brackets and ampersands are *always* encoded automatically. This makes it easy to use Markdown to write about HTML code. (As opposed to raw HTML, which is a terrible format for writing about HTML syntax, because every single `<` and `&` in your example code needs to be escaped.)
-
 
 
 
