@@ -71,10 +71,7 @@ Atx-style headers use 1-6 hash characters at the start of the line, correspondin
     ###### This is an H6
 
 ### Blockquotes
-Markdown uses email-style `>` characters for blockquoting. If you're
-familiar with quoting passages of text in an email message, then you
-know how to create a blockquote in Markdown. It looks best if you hard
-wrap the text and put a `>` before every line:
+Markdown uses email-style `>` characters for blockquoting. It looks best if you hard wrap the text and put a `>` before every line:
 
     > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
     > consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
@@ -83,8 +80,7 @@ wrap the text and put a `>` before every line:
     > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
     > id sem consectetuer libero luctus adipiscing.
 
-Markdown allows you to be lazy and only put the `>` before the first
-line of a hard-wrapped paragraph:
+Markdown allows you to be lazy and only put the `>` before the first line of a hard-wrapped paragraph:
 
     > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
     consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
@@ -93,8 +89,7 @@ line of a hard-wrapped paragraph:
     > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
     id sem consectetuer libero luctus adipiscing.
 
-Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by
-adding additional levels of `>`:
+Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by adding additional levels of `>`:
 
     > This is the first level of quoting.
     >
@@ -102,8 +97,7 @@ adding additional levels of `>`:
     >
     > Back to the first level.
 
-Blockquotes can contain other Markdown elements, including headers, lists,
-and code blocks:
+Blockquotes can contain other Markdown elements, including headers, lists, and code blocks:
 
 	> ## This is a header.
 	> 
@@ -114,13 +108,10 @@ and code blocks:
 	> 
 	>     return shell_exec("echo $input | $markdown_script");
 
-Any decent text editor should make email-style quoting easy. For
-example, with BBEdit, you can make a selection and choose Increase
-Quote Level from the Text menu.
+Any decent text editor should make email-style quoting easy. For example, with BBEdit, you can make a selection and choose Increase Quote Level from the Text menu.
 
 
-<h3 id="list">Lists</h3>
-
+### Lists
 Markdown supports ordered (numbered) and unordered (bulleted) lists.
 
 Unordered lists use asterisks, pluses, and hyphens -- interchangably
