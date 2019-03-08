@@ -50,25 +50,17 @@ When you *do* want to insert a `<br />` break tag using Markdown, you end a line
 行末两个或两个以上空格换行。
 
 ### Headers 标题
-Markdown supports two styles of headers, Setext and atx.
+Markdown supports two styles of headers, Setext and atx. 两种风格
 
-Setext-style headers are "underlined" using equal signs (for first-level headers) and dashes (for second-level headers). For example:
+Setext-style headers are "underlined" using equal signs (for first-level headers) and dashes (for second-level headers).
 
-    This is an H1
-    =============
+标题下方划等号和破折号作为一级标题和二级标题。
 
-    This is an H2
-    -------------
+Any number of underlining `=`'s or `-`'s will work. 任意数量等号或破折号都行。
 
-Any number of underlining `=`'s or `-`'s will work.
+Atx-style headers use 1-6 hash characters at the start of the line, corresponding to header levels 1-6.
 
-Atx-style headers use 1-6 hash characters at the start of the line, corresponding to header levels 1-6. For example:
-
-    # This is an H1
-
-    ## This is an H2
-
-    ###### This is an H6
+行前置1-6个井号对应1-6级标题。
 
 ### Blockquotes 块级引用
 Markdown uses email-style `>` characters for blockquoting. It looks best if you hard wrap the text and put a `>` before every line:
