@@ -43,12 +43,11 @@ However, inside Markdown code spans and blocks, angle brackets and ampersands ar
 ### Paragraphs and Line Breaks 段落与换行
 A paragraph is simply one or more consecutive lines of text, separated by one or more blank lines. (A blank line is any line that looks like a blank line -- a line containing nothing but spaces or tabs is considered blank.) Normal paragraphs should not be indented with spaces or tabs.
 
-The implication of the "one or more consecutive lines of text" rule is that Markdown supports "hard-wrapped" text paragraphs. This differs significantly from most other text-to-HTML formatters which translate every line break character in a paragraph into a `<br />` tag.
+段落之间以空行隔开。
 
 When you *do* want to insert a `<br />` break tag using Markdown, you end a line with two or more spaces, then type return.
 
-Yes, this takes a tad more effort to create a `<br />`, but a simplistic "every line break is a `<br />`" rule wouldn't work for Markdown. Markdown's email-style [blockquoting][bq] and multi-paragraph [list items][l] work best -- and look better -- when you format them with hard breaks.
-
+行末两个或两个以上空格换行。
 
 ### Headers
 Markdown supports two styles of headers, [Setext] [1] and [atx] [2].
