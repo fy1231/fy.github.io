@@ -37,11 +37,9 @@ Markdown会根据情况自动判断是否转义。
 
 However, inside Markdown code spans and blocks, angle brackets and ampersands are *always* encoded automatically. This makes it easy to use Markdown to write about HTML code. (As opposed to raw HTML, which is a terrible format for writing about HTML syntax, because every single `<` and `&` in your example code needs to be escaped.)
 
-
+代码标签内总是转义，记录HTML代码比直接用HTML更加方便。
 
 ## Block Elements
-
-
 ### Paragraphs and Line Breaks
 
 A paragraph is simply one or more consecutive lines of text, separated
