@@ -29,6 +29,7 @@ Unlike block-level HTML tags, Markdown syntax *is* processed within span-level t
 ### Automatic Escaping for Special Characters 特殊字符自动转义
 In HTML, there are two characters that demand special treatment: `<` and `&`. Left angle brackets are used to start tags; ampersands are used to denote HTML entities. If you want to use them as literal characters, you must escape them as entities, e.g. `&lt;`, and `&amp;`.
 
+两个特殊字符：left angle bracket `<` 作为标签起始；ampersand `&` 表示转义。
 
 Markdown allows you to use these characters naturally, taking care of all the necessary escaping for you. If you use an ampersand as part of an HTML entity, it remains unchanged; otherwise it will be translated into `&amp;`.
 
