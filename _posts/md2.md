@@ -103,11 +103,11 @@ To avoid triggering an ordered list by accident, you can backslash-escape the pe
 ### Code Blocks 代码块
 Markdown wraps a code block in both `<pre>` and `<code>` tags.
 
-To produce a code block in Markdown, simply indent every line of the block by at least 4 spaces or 1 tab. 
+To produce a code block in Markdown, simply indent every line of the block by at least 4 spaces or 1 tab. 每行缩进4个空格形成代码块。
 
 One level of indentation -- 4 spaces or 1 tab -- is removed from each line of the code block.
 
-A code block continues until it reaches a line that is not indented (or the end of the article).
+A code block continues until it reaches a line that is not indented (or the end of the article). 代码块在非缩进行结束。
 
 Regular Markdown syntax is not processed within code blocks. 常规Markdown语法在代码块在中不起作用。
 
