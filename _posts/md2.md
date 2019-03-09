@@ -98,7 +98,7 @@ List items may consist of multiple paragraphs. Each subsequent paragraph in a li
 
 列表内容缩进。
 
-backslash-escape the period.
+To avoid triggering an ordered list by accident, you can backslash-escape the period.
 
 ### Code Blocks
 Pre-formatted code blocks are used for writing about programming or
