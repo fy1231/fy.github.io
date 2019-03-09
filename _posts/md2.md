@@ -78,51 +78,15 @@ Blockquotes can contain other Markdown elements, including headers, lists, and c
 ### Lists 列表
 Markdown supports ordered (numbered) and unordered (bulleted) lists. 有序列表和无序列表。
 
-Unordered lists use asterisks, pluses, and hyphens -- interchangably
--- as list markers:
-*   Red
-*   Green
-*   Blue
+Unordered lists use asterisks, pluses, and hyphens -- interchangably.
 
-is equivalent to:
+无序列表可以用星号、加号、连号之一表示。
 
-+   Red
-+   Green
-+   Blue
-
-and:
-
-    -   Red
-    -   Green
-    -   Blue
-
-Ordered lists use numbers followed by periods:
-
-    1.  Bird
-    2.  McHale
-    3.  Parish
+Ordered lists use numbers followed by periods.
 
 It's important to note that the actual numbers you use to mark the
 list have no effect on the HTML output Markdown produces. The HTML
 Markdown produces from the above list is:
-
-    <ol>
-    <li>Bird</li>
-    <li>McHale</li>
-    <li>Parish</li>
-    </ol>
-
-If you instead wrote the list in Markdown like this:
-
-    1.  Bird
-    1.  McHale
-    1.  Parish
-
-or even:
-
-    3. Bird
-    1. McHale
-    8. Parish
 
 you'd get the exact same HTML output. The point is, if you want to,
 you can use ordinal numbers in your ordered Markdown lists, so that
