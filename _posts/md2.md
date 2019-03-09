@@ -116,31 +116,6 @@ it and indent it, and Markdown will handle the hassle of encoding the
 ampersands and angle brackets. For example, this:
 
 
-Markdown will generate:
-
-    <p>This is a normal paragraph:</p>
-
-    <pre><code>This is a code block.
-    </code></pre>
-
-One level of indentation -- 4 spaces or 1 tab -- is removed from each
-line of the code block. For example, this:
-
-    Here is an example of AppleScript:
-
-        tell application "Foo"
-            beep
-        end tell
-
-will turn into:
-
-    <p>Here is an example of AppleScript:</p>
-
-    <pre><code>tell application "Foo"
-        beep
-    end tell
-    </code></pre>
-
 A code block continues until it reaches a line that is not indented
 (or the end of the article).
 
