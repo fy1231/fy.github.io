@@ -84,18 +84,7 @@ Unordered lists use asterisks, pluses, and hyphens -- interchangably.
 
 Ordered lists use numbers followed by periods.
 
-It's important to note that the actual numbers you use to mark the
-list have no effect on the HTML output Markdown produces. The HTML
-Markdown produces from the above list is:
-
-you'd get the exact same HTML output. The point is, if you want to,
-you can use ordinal numbers in your ordered Markdown lists, so that
-the numbers in your source match the numbers in your published HTML.
-But if you want to be lazy, you don't have to.
-
-If you do use lazy list numbering, however, you should still start the
-list with the number 1. At some point in the future, Markdown may support
-starting ordered lists at an arbitrary number.
+It's important to note that the actual numbers you use to mark the list have no effect on the HTML output Markdown produces.
 
 List markers typically start at the left margin, but may be indented by
 up to three spaces. List markers must be followed by one or more spaces
