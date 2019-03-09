@@ -75,21 +75,20 @@ Blockquotes can contain other Markdown elements, including headers, lists, and c
 
 块级引用内可以包含Markdown元素。
 
-### Lists 序列
-Markdown supports ordered (numbered) and unordered (bulleted) lists.
+### Lists 列表
+Markdown supports ordered (numbered) and unordered (bulleted) lists. 有序列表和无序列表。
 
 Unordered lists use asterisks, pluses, and hyphens -- interchangably
 -- as list markers:
-
-    *   Red
-    *   Green
-    *   Blue
+*   Red
+*   Green
+*   Blue
 
 is equivalent to:
 
-    +   Red
-    +   Green
-    +   Blue
++   Red
++   Green
++   Blue
 
 and:
 
