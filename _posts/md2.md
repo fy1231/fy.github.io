@@ -109,38 +109,7 @@ One level of indentation -- 4 spaces or 1 tab -- is removed from each line of th
 
 A code block continues until it reaches a line that is not indented (or the end of the article).
 
-Within a code block, ampersands (`&`) and angle brackets (`<` and `>`)
-are automatically converted into HTML entities. This makes it very
-easy to include example HTML source code using Markdown -- just paste
-it and indent it, and Markdown will handle the hassle of encoding the
-ampersands and angle brackets. For example, this:
-
-
-A code block continues until it reaches a line that is not indented
-(or the end of the article).
-
-Within a code block, ampersands (`&`) and angle brackets (`<` and `>`)
-are automatically converted into HTML entities. This makes it very
-easy to include example HTML source code using Markdown -- just paste
-it and indent it, and Markdown will handle the hassle of encoding the
-ampersands and angle brackets. For example, this:
-
-        <div class="footer">
-            &copy; 2004 Foo Corporation
-        </div>
-
-will turn into:
-
-    <pre><code>&lt;div class="footer"&gt;
-        &amp;copy; 2004 Foo Corporation
-    &lt;/div&gt;
-    </code></pre>
-
-Regular Markdown syntax is not processed within code blocks. E.g.,
-asterisks are just literal asterisks within a code block. This means
-it's also easy to use Markdown to write about Markdown's own syntax.
-
-
+Regular Markdown syntax is not processed within code blocks. Markdown语法在代码块在中不起作用。
 
 ### Horizontal Rules
 You can produce a horizontal rule tag (`<hr />`) by placing three or
