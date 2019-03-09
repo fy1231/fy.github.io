@@ -107,28 +107,7 @@ But if you want to be lazy, you don't have to:
 If list items are separated by blank lines, Markdown will wrap the
 items in `<p>` tags in the HTML output. For example, this input:
 
-    *   Bird
-    *   Magic
 
-will turn into:
-
-    <ul>
-    <li>Bird</li>
-    <li>Magic</li>
-    </ul>
-
-But this:
-
-    *   Bird
-
-    *   Magic
-
-will turn into:
-
-    <ul>
-    <li><p>Bird</p></li>
-    <li><p>Magic</p></li>
-    </ul>
 
 List items may consist of multiple paragraphs. Each subsequent
 paragraph in a list item must be indented by either 4 spaces
@@ -184,8 +163,7 @@ line. To avoid this, you can backslash-escape the period:
 
 
 
-<h3 id="precode">Code Blocks</h3>
-
+### Code Blocks
 Pre-formatted code blocks are used for writing about programming or
 markup source code. Rather than forming normal paragraphs, the lines
 of a code block are interpreted literally. Markdown wraps a code block
