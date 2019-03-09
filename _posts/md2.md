@@ -112,23 +112,7 @@ A code block continues until it reaches a line that is not indented (or the end 
 Regular Markdown syntax is not processed within code blocks. 常规Markdown语法在代码块在中不起作用。
 
 ### Horizontal Rules
-You can produce a horizontal rule tag (`<hr />`) by placing three or
-more hyphens, asterisks, or underscores on a line by themselves. If you
-wish, you may use spaces between the hyphens or asterisks. Each of the
-following lines will produce a horizontal rule:
-
-    * * *
-
-    ***
-
-    *****
-
-    - - -
-
-    ---------------------------------------
-
-
-* * *
+You can produce a horizontal rule tag (`<hr />`) by placing three or more hyphens, asterisks, or underscores on a line by themselves. If you wish, you may use spaces between the hyphens or asterisks.
 
 ## Span Elements
 ### Links
