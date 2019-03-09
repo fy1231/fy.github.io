@@ -100,18 +100,21 @@ List items may consist of multiple paragraphs. Each subsequent paragraph in a li
 
 To avoid triggering an ordered list by accident, you can backslash-escape the period.
 
-### Code Blocks
-Pre-formatted code blocks are used for writing about programming or
-markup source code. Rather than forming normal paragraphs, the lines
-of a code block are interpreted literally. Markdown wraps a code block
-in both `<pre>` and `<code>` tags.
+### Code Blocks 代码块
+Pre-formatted code blocks are used for writing about programming or markup source code. Rather than forming normal paragraphs, the lines of a code block are interpreted literally. Markdown wraps a code block in both `<pre>` and `<code>` tags.
 
-To produce a code block in Markdown, simply indent every line of the
-block by at least 4 spaces or 1 tab. For example, given this input:
+To produce a code block in Markdown, simply indent every line of the block by at least 4 spaces or 1 tab. 
 
-    This is a normal paragraph:
+One level of indentation -- 4 spaces or 1 tab -- is removed from each line of the code block.
 
-        This is a code block.
+A code block continues until it reaches a line that is not indented (or the end of the article).
+
+Within a code block, ampersands (`&`) and angle brackets (`<` and `>`)
+are automatically converted into HTML entities. This makes it very
+easy to include example HTML source code using Markdown -- just paste
+it and indent it, and Markdown will handle the hassle of encoding the
+ampersands and angle brackets. For example, this:
+
 
 Markdown will generate:
 
