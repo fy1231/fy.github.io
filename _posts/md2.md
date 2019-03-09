@@ -86,9 +86,7 @@ Ordered lists use numbers followed by periods.
 
 It's important to note that the actual numbers you use to mark the list have no effect on the HTML output Markdown produces.
 
-List markers typically start at the left margin, but may be indented by
-up to three spaces. List markers must be followed by one or more spaces
-or a tab.
+List markers typically start at the left margin, but may be indented by up to three spaces. List markers must be followed by one or more spaces or a tab.
 
 To make lists look nice, you can wrap items with hanging indents:
 
