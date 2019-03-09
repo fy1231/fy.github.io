@@ -84,7 +84,11 @@ Unordered lists use asterisks, pluses, and hyphens -- interchangably.
 
 Ordered lists use numbers followed by periods.
 
+有序列表则使用数字与句号的组合。
+
 It's important to note that the actual numbers you use to mark the list have no effect on the HTML output Markdown produces.
+
+转换得到的有序列表与标记列表的数字数值无关。
 
 List markers typically start at the left margin, but may be indented by up to three spaces. List markers must be followed by one or more spaces or a tab.
 
