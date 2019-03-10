@@ -111,11 +111,11 @@ A code block continues until it reaches a line that is not indented (or the end 
 
 Regular Markdown syntax is not processed within code blocks. 常规Markdown语法在代码块在中不起作用。
 
-### Horizontal Rules
-You can produce a horizontal rule tag (`<hr />`) by placing three or more hyphens, asterisks, or underscores on a line by themselves. If you wish, you may use spaces between the hyphens or asterisks.
+### Horizontal Rules 水平线
+You can produce a horizontal rule tag (`<hr />`) by placing three or more hyphens, asterisks, or underscores on a line by themselves. 行中只有三个或三个以上连号或星号为水平线。
 
 ## Span Elements
-### Links
+### Links 链接
 Markdown supports two style of links: *inline* and *reference*.
 
 In both styles, the link text is delimited by [square brackets].
