@@ -122,28 +122,7 @@ In both styles, the link text is delimited by [square brackets].
 
 To create an inline link, use a set of regular parentheses immediately after the link text's closing square bracket. Inside the parentheses, put the URL where you want the link to point, along with an *optional* title for the link, surrounded in quotes. For example:
 
-This is [an example] [5] reference-style link.
 
-Then, anywhere in the document, you define your link label like this,
-on a line by itself:
-
-[5]: http://example.com/  "Optional Title Here"
-
-That is:
-
-*   Square brackets containing the link identifier (optionally
-    indented from the left margin using up to three spaces);
-*   followed by a colon;
-*   followed by one or more spaces (or tabs);
-*   followed by the URL for the link;
-*   optionally followed by a title attribute for the link, enclosed
-    in double or single quotes, or enclosed in parentheses.
-
-The following three link definitions are equivalent:
-
-	[foo]: http://example.com/  "Optional Title Here"
-	[foo]: http://example.com/  'Optional Title Here'
-	[foo]: http://example.com/  (Optional Title Here)
 
 **Note:** There is a known bug in Markdown.pl 1.0.1 which prevents
 single quotes from being used to delimit link titles.
