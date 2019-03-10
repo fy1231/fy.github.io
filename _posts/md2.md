@@ -120,22 +120,7 @@ Markdown supports two style of links: *inline* and *reference*.
 
 In both styles, the link text is delimited by [square brackets].
 
-To create an inline link, use a set of regular parentheses immediately after the link text's closing square bracket. Inside the parentheses, put the URL where you want the link to point, along with an *optional* title for the link, surrounded in quotes. For example:
-
-
-
-**Note:** There is a known bug in Markdown.pl 1.0.1 which prevents
-single quotes from being used to delimit link titles.
-
-The link URL may, optionally, be surrounded by angle brackets:
-
-    [id]: <http://example.com/>  "Optional Title Here"
-
-You can put the title attribute on the next line and use extra spaces
-or tabs for padding, which tends to look better with longer URLs:
-
-    [id]: http://example.com/longish/path/to/resource/here
-        "Optional Title Here"
+To create an inline link, use a set of regular parentheses immediately after the link text's closing square bracket. Inside the parentheses, put the URL where you want the link to point, along with an *optional* title for the link, surrounded in quotes.
 
 Link definitions are only used for creating links during Markdown
 processing, and are stripped from your document in the HTML output.
