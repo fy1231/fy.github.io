@@ -122,12 +122,12 @@ In both styles, the link text is delimited by [square brackets].
 
 To create an inline link, use a set of regular parentheses immediately after the link text's closing square bracket. Inside the parentheses, put the URL where you want the link to point, along with an *optional* title for the link, surrounded in quotes. For example:
 
-This is [an example] [id] reference-style link.
+This is [an example] [5] reference-style link.
 
 Then, anywhere in the document, you define your link label like this,
 on a line by itself:
 
-[id]: http://example.com/  "Optional Title Here"
+[5]: http://example.com/  "Optional Title Here"
 
 That is:
 
