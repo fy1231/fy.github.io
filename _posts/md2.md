@@ -134,9 +134,7 @@ Markdown treats asterisks (`*`) and underscores (`_`) as indicators of emphasis.
 一个星号或下划线包裹表示斜体，两个表示加粗。
 
 ### Code 代码
-To indicate a span of code, wrap it with backtick quotes (`` ` ``).
-Unlike a pre-formatted code block, a code span indicates code within a
-normal paragraph. For example:
+To indicate a span of code, wrap it with backtick quotes (`` ` ``). Unlike a pre-formatted code block, a code span indicates code within a normal paragraph. For example:
 
     Use the `printf()` function.
 
@@ -188,8 +186,7 @@ to produce:
 
 
 
-<h3 id="img">Images</h3>
-
+### Images
 Admittedly, it's fairly difficult to devise a "natural" syntax for
 placing images into a plain text document format.
 
