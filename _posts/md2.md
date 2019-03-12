@@ -134,22 +134,7 @@ Markdown treats asterisks (`*`) and underscores (`_`) as indicators of emphasis.
 一个星号或下划线包裹表示斜体，两个表示加粗。
 
 ### Code 代码
-To indicate a span of code, wrap it with backtick quotes (`` ` ``). Unlike a pre-formatted code block, a code span indicates code within a normal paragraph. For example:
-
-    Use the `printf()` function.
-
-will produce:
-
-    <p>Use the <code>printf()</code> function.</p>
-
-To include a literal backtick character within a code span, you can use
-multiple backticks as the opening and closing delimiters:
-
-    ``There is a literal backtick (`) here.``
-
-which will produce this:
-
-    <p><code>There is a literal backtick (`) here.</code></p>
+To indicate a span of code, wrap it with backtick quotes (`` ` ``). Unlike a pre-formatted code block, a code span indicates code within a normal paragraph. 
 
 The backtick delimiters surrounding a code span may include spaces --
 one after the opening, one before the closing. This allows you to place
