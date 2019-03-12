@@ -116,13 +116,13 @@ You can produce a horizontal rule tag (`<hr />`) by placing three or more hyphen
 
 ## Span Elements
 ### Links 链接
-Markdown supports two style of links: *inline* and *reference*.
+Markdown supports two style of links: *inline* and *reference*. 两种链接方式。
 
 To create an inline link, use a set of regular parentheses immediately after the link text's closing square bracket. Inside the parentheses, put the URL where you want the link to point, along with an *optional* title for the link, surrounded in quotes.
 
+在一个包含链接文字的方括号后跟一个包含链接地址的括号创建内联链接。
 
-
-The point of reference-style links is not that they're easier to write. The point is that with reference-style links, your document source is vastly more readable. In the raw HTML, there's more markup than there is text.
+The point of reference-style links is not that they're easier to write. The point is that with reference-style links, your document source is vastly more readable. In the raw HTML, there's more markup than there is text. 引用方式的链接更加可读。
 
 With Markdown's reference-style links, a source document much more closely resembles the final output, as rendered in a browser. By allowing you to move the markup-related metadata out of the paragraph, you can add links without interrupting the narrative flow of your prose.
 
