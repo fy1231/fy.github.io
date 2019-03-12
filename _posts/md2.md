@@ -128,51 +128,12 @@ Reference-style links use a second set of square brackets, inside which you plac
 
 The point of reference-style links is not that they're easier to write. The point is that with reference-style links, your document source is vastly more readable. In the raw HTML, there's more markup than there is text. 引用方式的链接更加可读。
 
-### Emphasis
+### Emphasis 强调
+Markdown treats asterisks (`*`) and underscores (`_`) as indicators of emphasis. Text wrapped with one `*` or `_` will be wrapped with an HTML `<em>` tag; double `*`'s or `_`'s will be wrapped with an HTML `<strong>` tag.
 
-Markdown treats asterisks (`*`) and underscores (`_`) as indicators of
-emphasis. Text wrapped with one `*` or `_` will be wrapped with an
-HTML `<em>` tag; double `*`'s or `_`'s will be wrapped with an HTML
-`<strong>` tag. E.g., this input:
+一个星号或下划线包裹表示斜体，两个表示加粗。
 
-    *single asterisks*
-
-    _single underscores_
-
-    **double asterisks**
-
-    __double underscores__
-
-will produce:
-
-    <em>single asterisks</em>
-
-    <em>single underscores</em>
-
-    <strong>double asterisks</strong>
-
-    <strong>double underscores</strong>
-
-You can use whichever style you prefer; the lone restriction is that
-the same character must be used to open and close an emphasis span.
-
-Emphasis can be used in the middle of a word:
-
-    un*frigging*believable
-
-But if you surround an `*` or `_` with spaces, it'll be treated as a
-literal asterisk or underscore.
-
-To produce a literal asterisk or underscore at a position where it
-would otherwise be used as an emphasis delimiter, you can backslash
-escape it:
-
-    \*this text is surrounded by literal asterisks\*
-
-
-
-<h3 id="code">Code</h3>
-
+### Code 代码
 To indicate a span of code, wrap it with backtick quotes (`` ` ``).
 Unlike a pre-formatted code block, a code span indicates code within a
 normal paragraph. For example:
