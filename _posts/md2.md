@@ -136,42 +136,13 @@ Markdown treats asterisks (`*`) and underscores (`_`) as indicators of emphasis.
 ### Code 代码
 To indicate a span of code, wrap it with backtick quotes (`` ` ``). Unlike a pre-formatted code block, a code span indicates code within a normal paragraph. 
 
-The backtick delimiters surrounding a code span may include spaces --
-one after the opening, one before the closing. This allows you to place
-literal backtick characters at the beginning or end of a code span:
+使用反引号包裹形成代码段，可在段落中显示。
 
-	A single backtick in a code span: `` ` ``
-	
-	A backtick-delimited string in a code span: `` `foo` ``
+The backtick delimiters surrounding a code span may include spaces -- one after the opening, one before the closing. This allows you to place literal backtick characters at the beginning or end of a code span.
 
-will produce:
+如以反引号开头或结尾应当添加空格。
 
-	<p>A single backtick in a code span: <code>`</code></p>
-	
-	<p>A backtick-delimited string in a code span: <code>`foo`</code></p>
-
-With a code span, ampersands and angle brackets are encoded as HTML
-entities automatically, which makes it easy to include example HTML
-tags. Markdown will turn this:
-
-    Please don't use any `<blink>` tags.
-
-into:
-
-    <p>Please don't use any <code>&lt;blink&gt;</code> tags.</p>
-
-You can write this:
-
-    `&#8212;` is the decimal-encoded equivalent of `&mdash;`.
-
-to produce:
-
-    <p><code>&amp;#8212;</code> is the decimal-encoded
-    equivalent of <code>&amp;mdash;</code>.</p>
-
-
-
-### Images
+### Images 图片
 Admittedly, it's fairly difficult to devise a "natural" syntax for
 placing images into a plain text document format.
 
