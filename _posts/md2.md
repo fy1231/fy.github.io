@@ -143,48 +143,12 @@ The backtick delimiters surrounding a code span may include spaces -- one after 
 如以反引号开头或结尾应当添加空格。
 
 ### Images 图片
-Admittedly, it's fairly difficult to devise a "natural" syntax for
-placing images into a plain text document format.
+Markdown uses an image syntax that is intended to resemble the syntax for links, allowing for two styles: *inline* and *reference*.
 
-Markdown uses an image syntax that is intended to resemble the syntax
-for links, allowing for two styles: *inline* and *reference*.
+插入图片语法与链接类似，以叹号开头。
 
-Inline image syntax looks like this:
-
-    ![Alt text](/path/to/img.jpg)
-
-    ![Alt text](/path/to/img.jpg "Optional title")
-
-That is:
-
-*   An exclamation mark: `!`;
-*   followed by a set of square brackets, containing the `alt`
-    attribute text for the image;
-*   followed by a set of parentheses, containing the URL or path to
-    the image, and an optional `title` attribute enclosed in double
-    or single quotes.
-
-Reference-style image syntax looks like this:
-
-    ![Alt text][id]
-
-Where "id" is the name of a defined image reference. Image references
-are defined using syntax identical to link references:
-
-    [id]: url/to/image  "Optional title attribute"
-
-As of this writing, Markdown has no syntax for specifying the
-dimensions of an image; if this is important to you, you can simply
-use regular HTML `<img>` tags.
-
-
-* * *
-
-
-<h2 id="misc">Miscellaneous</h2>
-
-<h3 id="autolink">Automatic Links</h3>
-
+## Miscellaneous
+### Automatic Links
 Markdown supports a shortcut style for creating "automatic" links for URLs and email addresses: simply surround the URL or email address with angle brackets. What this means is that if you want to show the actual text of a URL or email address, and also have it be a clickable link, you can do this:
 
     <http://example.com/>
@@ -216,7 +180,7 @@ will probably eventually start receiving spam.)
 
 
 
-<h3 id="backslash">Backslash Escapes</h3>
+### Backslash Escapes
 
 Markdown allows you to use backslash escapes to generate literal
 characters which would otherwise have special meaning in Markdown's
